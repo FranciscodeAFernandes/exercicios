@@ -68,8 +68,8 @@ h2 {
     border-radius: 10px;
 }
 
+
 button:hover {
-    transition: transform 1s ease;
     background-color: rgba(0, 128, 75, 0.438);
     transform: translateY(-6px);
 }
@@ -89,6 +89,7 @@ button {
     height: 15vh;
     margin-top: 20px;
     margin-bottom: 30px;
+    transition: transform 1s ease;
 }
 
 @media (max-width: 480px){
