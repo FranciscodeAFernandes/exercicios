@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    background-color: rgb(206, 206, 206);
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 20px 0px 20px 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 35px;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 1s ease;
+}
+
+a:hover {
+    transform: translateY(-8px);
+    color: rgb(139, 75, 75);
+}
+
+#imagemprincipal {
+    width: 100vw;
+    max-height: 800px;
+}
+
+#conteudoinicial {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+}
+
+header > div > h1 {
+    color: rgb(156, 76, 76);
+    font-size: 90px;
+    margin: 0px;
+}
+
+header > div > p {
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    padding: 20px 90px;
+    background-color: rgb(156, 76, 76);
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+button:hover {
+    transform: translateY(-10px);
+}
+
+.tenis {
+    max-width: 420px;
+    height: 600px;
+    border: 1px solid rgb(156, 76, 76);
+    border-radius: 90px;
+    padding: 10px;
+    transition: transform 1s ease;
+}
+
+.tenis:hover {
+    transform: translateY(-15px);
+}
+
+#produtos {  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produtos-tenis > h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos-tenis > h1 {
+    padding-top: 70px;
+    color: rgb(156, 76, 76);
+}
+
+#especial {
+    background-color: rgb(0, 0, 0);
+    margin-top: 80px;
+}
+
+#especial > div > img{
+    max-width: 500px;
+    padding-top: 200px;
+    display: flex;
+    margin: auto;
+    transition: transform 1s ease;
+}
+
+#especial > div > h1 {
+    color: brown;
+}
+
+#especial > div > h2 {
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+}
+
+#especial > div > img:hover {
+    transform: translateY(-25px);
+    border: 1px solid rgb(37, 17, 17);
+    border-radius: 90px;
+}
+
+#especial {
+    text-align: center;
+}
