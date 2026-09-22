@@ -44,6 +44,7 @@ a:hover {
 }
 
 #conteudoinicial {
+    max-width: 280px;
     position: absolute;
     bottom: 50%;
     left: 5%;
@@ -132,4 +133,23 @@ button:hover {
 
 #especial {
     text-align: center;
+}
+
+
+#contatos {
+    padding: 50px;
+    height: 200px;
+    max-width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 400px;
+    margin-bottom: 30px;
+}
+#sobre {
+    background-color: lightslategray;
+    padding: 50px;
+    height: 200px;
+    max-width: 700px;
+    border: 2px solid black;
+    margin: auto;
 }
