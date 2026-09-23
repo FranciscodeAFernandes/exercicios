@@ -39,8 +39,7 @@ a:hover {
 }
 
 #imagemprincipal {
-    width: 100vw;
-    max-height: 800px;
+    width: 100%;
 }
 
 #conteudoinicial {
